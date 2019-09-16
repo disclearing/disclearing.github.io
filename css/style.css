@@ -1,0 +1,80 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../img/background.jpg) no-repeat center center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.logo{
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 180px;
+  width: auto;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -110%);
+  color: #00ceff;
+  max-width: 90%;
+  padding: 2em 3em;
+  font-family: "Heebo", sans-serif;
+  padding-bottom: 50px;
+}
+.tagline {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -110%);
+  color: #00ceff;
+  max-width: 90%;
+  padding: 2em 3em;
+  font-family: "Heebo", sans-serif;
+  margin-top: 2em;
+}
+.social {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -85%);
+  color: #00ceff;
+  max-width: 90%;
+  padding: 2em 3em;
+  font-family: "Heebo", sans-serif;
+  margin-top: 2em;
+  vertical-align: middle;
+}
+.social a{
+	color: #00ceff;
+	transition: color 0.5s ease;
+	font-size: 25px;
+	margin-top: 2em;
+	margin-right: 25px;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+.social a:hover {
+    color: White;
+}
+.text h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.tagline p{
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: -1px;	
+}
+transition: 0.25s;
+}
